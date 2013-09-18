@@ -18,9 +18,18 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="act.vi" Type="VI" URL="../act.vi"/>
 		<Item Name="LoadWithFood.vi" Type="VI" URL="../LoadWithFood.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="readsensor.vi" Type="VI" URL="../readsensor.vi"/>
+		<Item Name="sense.vi" Type="VI" URL="../sense.vi"/>
+		<Item Name="think.vi" Type="VI" URL="../think.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
