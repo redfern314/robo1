@@ -19,7 +19,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="act.vi" Type="VI" URL="../act.vi"/>
-		<Item Name="global.vi" Type="VI" URL="../global.vi"/>
 		<Item Name="LoadWithFood.vi" Type="VI" URL="../LoadWithFood.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="readsensor.vi" Type="VI" URL="../readsensor.vi"/>
